@@ -8,6 +8,7 @@ body {
   color: #fff;
   position: relative;
   background: black;
+  transition: ease-in-out 0.3s;
 }
 
 /* style pr le header */
@@ -32,11 +33,7 @@ h1 {
   height: 76.9vh;
   display: flex;
   align-items: center;
-  z-index: 997;
   overflow: auto;
-}
-#header * {
-  transition: ease-in-out 0.3s;
 }
 #header .monNom {
   font-size: 48px;
