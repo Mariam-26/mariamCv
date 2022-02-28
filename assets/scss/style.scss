@@ -157,6 +157,54 @@ h1 {
 
 /* fin header */
 
+// Style pour le main
+// SECTION 1
+.section1 {
+    border: 5px solid rgb(255, 17, 0) !important;
+    margin: 3% auto;
+    h2 {
+        margin-bottom: 50px!important;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-family: 'Poppins', sans-serif;
+        color: #18d26e;
+    }
+    span {
+        transition: all 0.5s ease;
+    }
+    span.mariam {
+        color: #fff;
+    }
+    .colombbus {
+        width: 94%;
+        height: 50vh;
+        margin: 2% auto;
+        background-color: #18d26e;
+        box-shadow: 1px 2px 3px 0px;
+        border-radius: 5px;
+        &:hover {
+            background-color: #fff;
+            color: #18d26e;
+        }
+    }
+    .experience {
+        width: 45%;
+        height: 50vh;
+        margin: 2.5%;
+        background-color: #18d26e;
+        box-shadow: 1px 2px 3px 0px;
+        border-radius: 5px;
+        &:hover {
+            background-color: #fff;
+            color: #18d26e;
+        }
+    }
+}
+
+// FIN SECTION 1
+// SECTION 2
+// FIN SECTION 1
+// Style pour le main
 // FOOTER
 footer {
     background-color: rgba(255, 255, 255, 0.1);
