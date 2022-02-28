@@ -149,6 +149,48 @@ h1 {
 }
 
 /* fin header */
+.section1 {
+  border: 5px solid #ff1100 !important;
+  margin: 3% auto;
+}
+.section1 h2 {
+  margin-bottom: 50px !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: #18d26e;
+}
+.section1 span {
+  transition: all 0.5s ease;
+}
+.section1 span.mariam {
+  color: #fff;
+}
+.section1 .colombbus {
+  width: 94%;
+  height: 50vh;
+  margin: 2% auto;
+  background-color: #18d26e;
+  box-shadow: 1px 2px 3px 0px;
+  border-radius: 5px;
+}
+.section1 .colombbus:hover {
+  background-color: #fff;
+  color: #18d26e;
+}
+.section1 .experience {
+  width: 45%;
+  height: 50vh;
+  margin: 2.5%;
+  background-color: #18d26e;
+  box-shadow: 1px 2px 3px 0px;
+  border-radius: 5px;
+}
+.section1 .experience:hover {
+  background-color: #fff;
+  color: #18d26e;
+}
+
 footer {
   background-color: rgba(255, 255, 255, 0.1);
   height: 20vh;
