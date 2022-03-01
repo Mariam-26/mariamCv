@@ -1,4 +1,4 @@
-// Style général
+    // Style général
 * {
     box-sizing: border-box;
 }
@@ -15,45 +15,60 @@ body {
 
 /* style pr le header */
 
-a {
-    color: #18d26e;
-    &:hover {
-        color: #35e888;
-        text-decoration: none;
-    }
-}
-
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.5rem !important;
-}
-
 #header {
-    margin-top: 20px;
+    // margin-top: 50px;
     border: 5px solid rgb(51, 255, 0) !important;
     transition: ease-in-out 0.3s;
     position: relative;
-    height: 76.9vh;
+    height: 100vh !important;
     display: flex;
     align-items: center;
     // z-index: 997;
     overflow: auto;
+    // a {
+    //     // color: #18d26e !important;
+    //     &:hover {
+    //         // color: #35e888 !important;
+    //     }
+    // }
     .monNom {
+        border: 5px solid rgb(38, 0, 255) !important;
         font-size: 48px;
-        margin: 0;
+        margin-top: 80px;
         padding: 0;
         line-height: 1;
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
         color: #18d26e;
         a {
-            color: #fff;
+            border: 5px solid rgb(248, 248, 250) !important;
+            color: #18d26e;
             line-height: 1;
             display: inline-block;
             &:hover {
                 color: #fff;
                 line-height: 1;
                 display: inline-block;
+            }
+        }
+        h1 {
+            border: 5px solid rgb(255, 230, 0) !important;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5rem !important;
+            font-size: 16px;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.8);
+            .dev {
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(4, 184, 255);
+                border-bottom: 2px solid #18d26e;
+                padding-bottom: 6px;
+                text-transform: uppercase;
+                &:hover {
+                    color: #fff;
+                    border-bottom: 2px solid #ff28f4;
+                    padding-bottom: 6px;
+                }
             }
         }
     }
@@ -67,43 +82,12 @@ h1 {
         opacity: 1;
         transform: translateY(0px);
     }
-    h1 {
-        font-size: 16px;
-        margin-top: 20px;
-        color: rgba(255, 255, 255, 0.8);
-        .dev {
-            font-family: 'Open Sans', sans-serif;
-            color: rgb(4, 184, 255);
-            border-bottom: 2px solid #18d26e;
-            padding-bottom: 6px;
-            text-transform: uppercase;
-            &:hover {
-                color: #fff;
-                border-bottom: 2px solid #ff28f4;
-                padding-bottom: 6px;
-            }
-        }
-    }
-    .social-links {
-        margin-top: 40px;
-        a {
-            font-size: 2rem;
-            margin: auto;
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            margin-right: 10px;
-            border-radius: 50%;
-            height: 40px;
-            &:hover {
-                background: #18d26e;
-            }
-        }
-    }
     // NAV
     .nav-menu {
-        margin-top: -450px;
-        margin-right: 70px;
-        width: 100%;
+        border: 5px solid rgb(0, 255, 234) !important;
+        margin-top: -500px !important;
+        margin-right: 50px;
+        width: 100% !important;
         .bouton {
             background-color: rgba(255, 255, 255, 0.7);
         }
@@ -113,11 +97,11 @@ h1 {
             padding: 0;
             list-style: none;
             margin: auto;
-            li {
-                margin-left: 15px;
-            }
         }
         a {
+            text-decoration: none;
+            border: 5px solid rgb(255, 17, 0) !important;
+            margin: auto !important;
             text-transform: uppercase;
             display: block;
             position: relative;
@@ -158,64 +142,67 @@ h1 {
 /* fin header */
 
 // Style pour le main
-// SECTION 1
-.section1 {
-    border: 5px solid rgb(255, 17, 0) !important;
-    margin: 3% auto;
-    h2 {
-        margin-bottom: 50px!important;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-family: 'Poppins', sans-serif;
-        color: #18d26e;
-    }
-    span {
-        transition: all 0.5s ease;
-    }
-    span.mariam {
-        color: #fff;
-    }
-    .colombbus {
-        width: 94%;
-        height: 50vh;
-        margin: 2% auto;
-        background-color: #18d26e;
-        box-shadow: 1px 2px 3px 0px;
-        border-radius: 5px;
-        &:hover {
-            background-color: #fff;
+main {
+    // SECTION 1
+    .section1 {
+        border: 5px solid rgb(255, 17, 0) !important;
+        margin: 3% auto;
+        h2 {
+            margin-bottom: 50px!important;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
             color: #18d26e;
         }
+        .colombbus {
+            width: 94%;
+            height: 50vh;
+            margin: 2% auto;
+            background-color: #18d26e;
+            box-shadow: 1px 2px 3px 0px;
+            border-radius: 5px;
+            &:hover {
+                background-color: #fff;
+                color: #18d26e;
+            }
+        }
+        // CARD
+        .experience {
+            width: 45%;
+            height: 50vh;
+            margin: 2.5%;
+            background-color: #18d26e;
+            box-shadow: 1px 2px 3px 0px;
+            border-radius: 5px;
+            &:hover {
+                background-color: #fff;
+                color: #18d26e;
+            }
+        }
     }
-    .experience {
-        width: 45%;
-        height: 50vh;
-        margin: 2.5%;
-        background-color: #18d26e;
-        box-shadow: 1px 2px 3px 0px;
-        border-radius: 5px;
-        &:hover {
-            background-color: #fff;
+    // FIN SECTION 1
+    // SECTION 2
+    .section2 {
+        border: 5px solid rgb(38, 255, 0) !important;
+        margin: 3% auto;
+        h2 {
+            text-transform: uppercase;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
             color: #18d26e;
         }
-    }
-}
-
-// FIN SECTION 1
-// SECTION 2
-// FIN SECTION 1
-// Style pour le main
-// FOOTER
-footer {
-    background-color: rgba(255, 255, 255, 0.1);
-    height: 20vh;
-    p {
-        font-size: 10px;
-        &:hover {
-            color: rgba(255, 255, 255, 0.7);
+        // CARD
+        .formation {
+            width: 45%;
+            height: 50vh;
+            margin: auto;
+            background-color: #18d26e;
+            box-shadow: 1px 2px 3px 0px;
+            border-radius: 5px;
+            font-weight: 900;
+            &:hover {
+                background-color: #fff;
+                color: #18d26e;
+            } // Fin CARD
         }
     }
-}
-
-
-/* FIN FOOTER */
