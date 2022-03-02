@@ -469,5 +469,98 @@ footer p:hover {
 }
 
 /* FIN FOOTER */
+@media screen and (max-width: 760px) {
+  #header {
+    height: 60vh !important;
+  }
+  #header .monNom {
+    margin-top: 40px !important;
+  }
+  #header .nav-menu {
+    border: 5px solid #00ffea !important;
+    margin-top: -390px !important;
+    margin-right: 50px;
+    width: 100% !important;
+  }
+  #header .nav-menu .bouton {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  #header .nav-menu ul {
+    display: flex;
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    margin: auto;
+  }
+  #header .nav-menu a {
+    text-decoration: none;
+    border: 5px solid #ff1100 !important;
+    margin: auto !important;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  #header .nav-menu a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #18d26e;
+    visibility: hidden;
+    width: 0;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  #header .nav-menu a:hover::before,
+#header .nav-menu li:hover > a::before,
+#header .nav-menu .active > a::before {
+    visibility: visible;
+    width: 25px;
+  }
+  #header .nav-menu a:hover,
+#header .nav-menu .active > a,
+#header .nav-menu li:hover > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* fin header */
+  main .section1 .colombbus {
+    width: 100% !important;
+    height: 40vh;
+  }
+  main .section1 .experience {
+    width: 100% !important;
+    margin: 4% auto !important;
+  }
+  main .section1 .experience:nth-child(2) {
+    margin-bottom: 0 !important;
+  }
+  main .section2 h2 {
+    margin-bottom: 0px !important;
+  }
+  main .section2 .formation {
+    width: 100% !important;
+    margin: 4% auto !important;
+  }
+  main .section2 .formation:nth-child(1) {
+    margin-top: 0;
+  }
+  main .section4 .langue {
+    width: 100% !important;
+    margin: 4% auto !important;
+  }
+  main .section5 .centre {
+    width: 100% !important;
+    margin: 4% auto !important;
+  }
+
+  /* SECTION 5 */
+}
 
 /*# sourceMappingURL=style.css.map */
