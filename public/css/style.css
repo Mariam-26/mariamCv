@@ -455,5 +455,19 @@ main .section6 .contact .php-email-form .submit:hover {
 }
 
 /* FIN MAIN */
+footer {
+  border: 5px solid #4c00ff;
+  margin-top: 100px !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 20vh;
+}
+footer p {
+  font-size: 10px;
+}
+footer p:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* FIN FOOTER */
 
 /*# sourceMappingURL=style.css.map */

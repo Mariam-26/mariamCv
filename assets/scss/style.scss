@@ -493,3 +493,20 @@ main {
 
 
 /* FIN MAIN */
+
+// FOOTER
+footer {
+    border: 5px solid rgb(76, 0, 255);
+    margin-top: 100px !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 20vh;
+    p {
+        font-size: 10px;
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
+
+
+/* FIN FOOTER */
