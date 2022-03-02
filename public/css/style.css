@@ -562,5 +562,40 @@ footer p:hover {
 
   /* SECTION 5 */
 }
+@media screen and (max-width: 990px) {
+  main .section2 .formation {
+    width: 45%;
+  }
+  main .section4 .langue {
+    width: 100% !important;
+  }
+  main .section4 .langue img {
+    width: 100% !important;
+    height: 30vh !important;
+  }
+  main .section5 .centre {
+    width: 100% !important;
+  }
+  main .section5 .centre .interet {
+    margin: 50px auto;
+  }
+  main .section5 .centre img {
+    width: 100%;
+    height: 30vh;
+  }
+  main .section6 {
+    /* FIN SECTION 6 */
+  }
+  main .section6 .submit {
+    bottom: 0;
+    padding: 50px 30px;
+  }
+  main .section6 .submit:hover {
+    background: #15bb62;
+  }
+
+  /* FIN MAIN */
+}
+/* Fin MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
