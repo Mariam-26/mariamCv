@@ -349,3 +349,53 @@ main {
         // Container IMG
     }
     // FIN SECTION 4
+    // SECTION 5
+    .section5 {
+        border: 5px solid rgb(255, 17, 0) !important;
+        // margin: 3% auto;
+        h2 {
+            border: 5px solid rgb(244, 243, 247) !important;
+            margin: 50px auto!important;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+            color: #18d26e;
+        }
+        h3 {
+            margin: 50px auto!important;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            &:hover {
+                background-color: #fff;
+                color: #18d26e;
+            }
+        }
+        // Container IMG
+        .centre {
+            border: 5px solid rgb(76, 0, 255) !important;
+            width: 24%;
+            height: 50vh;
+            margin: auto;
+            background-color: #18d26e !important;
+            box-shadow: 1px 2px 3px 0px;
+            border-radius: 5px;
+            font-weight: 900;
+            &:hover {
+                background-color: #fff;
+                color: #18d26e;
+            }
+            .interet {
+                border: 5px solid rgb(72, 255, 0) !important;
+                margin: 50px auto !important;
+            } // Container IMG
+            .voyage {
+                height: 166px;
+            }
+            .basketball {
+                height: 166px;
+            }
+        }
+    }
+    // FIN SECTION 5
