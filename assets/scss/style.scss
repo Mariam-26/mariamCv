@@ -206,3 +206,101 @@ main {
             } // Fin CARD
         }
     }
+    // FIN SECTION 2
+    // SECTION 3
+    .section3 {
+        border: 5px solid rgb(38, 255, 0) !important;
+        margin: 3% auto;
+        h2 {
+            margin-bottom: 50px!important;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+            color: #18d26e;
+        }
+        .details {
+            border: 5px solid rgb(255, 238, 0) !important;
+            width: 100% !important;
+            height: 75vh !important;
+            margin: auto !important;
+            background-color: #18d26e;
+            box-shadow: 1px 2px 3px 0px;
+            border-radius: 5px;
+        }
+        .competences {
+            border: 5px solid rgb(234, 0, 255) !important;
+            margin-top: 80px;
+            .progress {
+                margin-top: 20px!important;
+                border: 5px solid red !important;
+                height: 50px;
+                display: block;
+                background: none;
+                .competance {
+                    padding: 10px 0;
+                    margin: 0 0 6px 0;
+                    text-transform: uppercase;
+                    display: block;
+                    font-weight: 600;
+                    font-family: 'Poppins', sans-serif;
+                    color: #fff;
+                    .val {
+                        float: right;
+                        font-style: normal;
+                    }
+                }
+            }
+            .progress-bar-wrap {
+                background: rgba(255, 255, 255, 0.15);
+            }
+            .html {
+                width: 85% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .css {
+                width: 80% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .javaScrip {
+                width: 50% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .jquery {
+                width: 40% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .php {
+                width: 45% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .photoShop {
+                width: 50% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .sass {
+                width: 40% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+            .wordPress {
+                width: 55% !important;
+                height: 10px !important;
+                transition: .9s !important;
+                background-color: #18d26e;
+            }
+        }
+    }
+    // FIN SECTION 3
