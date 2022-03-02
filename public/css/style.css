@@ -1,9 +1,9 @@
 /* Error: expected "}".
  *     ,
- * 306 |     // FIN SECTION 3
+ * 351 |     // FIN SECTION 4
  *     |                     ^
  *     '
- *   assets\scss\style.scss 306:21  root stylesheet */
+ *   assets\scss\style.scss 351:21  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 306 \2502      // FIN SECTION 3\a     \2502                      ^\a     \2575 \a   assets\\scss\\style.scss 306:21  root stylesheet';
+  content: 'Error: expected "}".\a     \2577 \a 351 \2502      // FIN SECTION 4\a     \2502                      ^\a     \2575 \a   assets\\scss\\style.scss 351:21  root stylesheet';
 }
