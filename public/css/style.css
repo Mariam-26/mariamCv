@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -126,6 +127,9 @@ body {
 }
 
 /* fin header */
+main {
+  margin-bottom: 0 !important;
+}
 main .section1 {
   border: 5px solid #ff1100 !important;
   margin: 3% auto;
@@ -453,11 +457,22 @@ main .section6 .contact .php-email-form .submit {
 main .section6 .contact .php-email-form .submit:hover {
   background: #15bb62;
 }
+main button {
+  font-size: 350%;
+  background: transparent;
+  border: none;
+  color: var(--bleu-foncé);
+  /* la position du bouton */
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+}
 
 /* FIN MAIN */
 footer {
   border: 5px solid #4c00ff;
-  margin-top: 100px !important;
+  margin-top: 0px !important;
   background-color: rgba(255, 255, 255, 0.1);
   height: 20vh;
 }

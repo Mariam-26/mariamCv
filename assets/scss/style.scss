@@ -139,6 +139,7 @@
                 
                 // Style pour le main
                 main {
+                    margin-bottom: 0 !important;
                     // SECTION 1
                     .section1 {
                         border: 5px solid rgb(255, 17, 0) !important;
@@ -485,13 +486,25 @@
                         }
                     }
                     // FIN SECTION 6
+                    // FLECHE
+                    button {
+                        font-size: 350%;
+                        background: transparent;
+                        border: none;
+                        color: var(--bleu-foncé);
+                        /* la position du bouton */
+                        position: fixed;
+                        bottom: 40px;
+                        right: 20px;
+                        cursor: pointer;
+                    }
                 }
                 /* FIN MAIN */
                 
                 // FOOTER
                 footer {
                     border: 5px solid rgb(76, 0, 255);
-                    margin-top: 100px !important;
+                    margin-top: 0px !important;
                     background-color: rgba(255, 255, 255, 0.1);
                     height: 20vh;
                     p {
